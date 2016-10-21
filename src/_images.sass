@@ -1,2 +1,52 @@
 img
 	max-width: 100%
+
+#gallery
+	display: flex
+	justify-content: space-around
+	flex-wrap: wrap
+	align-items: flex-start
+	margin: 10px 0
+	.gallery-image
+		margin: 5px
+		border: solid $seperator-color
+	.primary-image .gallery-image
+		border-color: $color-primary
+
+.crop
+	width: 200px
+	height: 200px
+	border-radius: $border-radius-large
+	float: right
+	&.large
+		width: 250px
+		height: 250px
+	@media (max-width: $mobile-width)
+		float: none
+		margin-left: auto
+		margin-right: auto
+
+	overflow: hidden
+	position: relative
+	transition: 0.3s opacity
+	&:hover
+		opacity: 0.7
+
+
+	figure
+		margin: 0
+	img
+		// http://stackoverflow.com/a/22191883
+		position: absolute
+		left: -100%
+		right: -100%
+		top: -100%
+		bottom: -100%
+		margin: auto
+		height: auto
+		width: auto
+		min-height: 200px
+		min-width: 200px
+		max-width: initial
+	figcaption
+		display: none
