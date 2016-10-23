@@ -61,7 +61,6 @@
 		"node": ">=0.12.0"
 	},
 	"scripts": {
-		"start": "grunt",
-		"test": "grunt build"
+		"test": "sass src/milligram.sass output.css"
 	}
 }
