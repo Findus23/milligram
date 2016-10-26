@@ -24,8 +24,5 @@
 	],
 	"dependencies": {
 		"normalize.css": "latest"
-	},
-	"scripts": {
-		"test": "sass src/milligram.sass output.css;sass-lint src/*"
 	}
 }
