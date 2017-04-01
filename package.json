@@ -1,27 +1,27 @@
 {
-	"name": "milligram",
-	"version": "2.0.0",
-	"description": "A minimalist CSS framework.",
-	"homepage": "http://milligram.github.io",
-	"repository": "Findus23/milligram",
-	"license": "MIT",
-	"author": "CJ Patoilo <cjpatoilo@gmail.com>",
-	"main": "src/milligram.sass",
-	"ignore": [
-		".editorconfig",
-		".gitignore",
-		".npmignore",
-		".travis.yml",
-		"bower.json",
-		"component.json",
-		"composer.json",
-		"contributing.md",
-		"gruntfile.js",
-		"package.js",
-		"package.json",
-		"test"
-	],
-	"dependencies": {
-		"normalize.css": "latest"
-	}
+  "name": "milligram",
+  "version": "2.0.0",
+  "description": "A minimalist CSS framework.",
+  "homepage": "http://milligram.github.io",
+  "repository": "Findus23/milligram",
+  "license": "MIT",
+  "author": "CJ Patoilo <cjpatoilo@gmail.com>",
+  "main": "src/milligram.sass",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    ".npmignore",
+    ".travis.yml",
+    "bower.json",
+    "component.json",
+    "composer.json",
+    "contributing.md",
+    "gruntfile.js",
+    "package.js",
+    "package.json",
+    "test"
+  ],
+  "dependencies": {
+    "normalize.css": "^6.0.0"
+  }
 }
